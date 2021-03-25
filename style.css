@@ -1,12 +1,13 @@
-span{
-    display:inline-block; 
-border:1px solid gray;
- border-radius:5px;
- }
+span {
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
 
-h3,h4 {
+h3,
+h4 {
     text-align: center;
-    margin:0;
+    margin: 0;
 }
 
 table,
@@ -14,21 +15,23 @@ tbody {
     border-collapse: collapse;
 }
 
-tr:not(:first-child){
+tr:not(:first-child) {
     border-top: 1px solid #a0a0a0;
 }
-tr:not(:last-child){
-    border-bottom: 1px solid #a0a0a0;    
+
+tr:not(:last-child) {
+    border-bottom: 1px solid #a0a0a0;
 }
 
 td {
     padding: 10px 10px;
     white-space: nowrap;
 }
-td:not(:first-child){
-    border-left: 1px solid #e8e8e8;
-    }
 
-td:not(:last-child){    
+td:not(:first-child) {
+    border-left: 1px solid #e8e8e8;
+}
+
+td:not(:last-child) {
     border-right: 1px solid #e8e8e8;
 }
