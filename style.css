@@ -1,13 +1,13 @@
 span {
-    display: inline-block;
     border: 1px solid gray;
     border-radius: 5px;
+    display: inline-block;
 }
 
 h3,
 h4 {
-    text-align: center;
     margin: 0;
+    text-align: center;
 }
 
 table,
